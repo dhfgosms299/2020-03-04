@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title> margin 속성 </title>
+ <style>
+
+    div{ width : 100px;
+         height : 100px;
+         border : 1px solid black;
+         color : red;}
+    .box1{margin-top : 10px;
+          margin-right : 20px;
+          margin-bottom : 30px;
+          margin-left : 40px;
+          }
+    .box2{margin : 10px 20px 30px 40px;}
+    .box3{margin : 20px 40px;}
+    .box4{margin : 30px;}
+    /* 요소를 세로로 배치할 경우, 이전 마진이 만날때 마진 값이
+      큰쪽 마진으로 표시됨. 요소를 가로로 배치할 경우에는 상관 없음 */
+ </style>
+</head>
+<body>
+    <h2>margin 속성</h2>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+    <div class="box4">box4</div>
+    <div></div>
+</body>
+</html>
